@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            Custom Animation
+        </title>
+        <style>
+            .bg{
+                height: 500px;
+                width: 500px;
+                background-color: black;
+                border-radius: 20%;
+                margin-left: 0%;
+            }
+            .bl1{
+                position: absolute;
+                height: 50px;
+                width: 50px;
+                background-color: aliceblue;
+                border-radius: 100%;
+                animation-name: b1;
+                animation-duration: 8s;
+                animation-iteration-count: infinite;
+                left: 1.2%;top: 33%;
+
+            }
+            .bl2{
+                position: absolute;
+                height: 50px;
+                width: 50px;
+                background-color: blue;
+                border-radius: 100%;
+                animation-name: b2;
+                animation-duration: 8s;
+                animation-iteration-count: infinite;
+                left:1.2%;top: 33%;
+
+            }
+            .bl3{
+                position: absolute;
+                height: 50px;
+                width: 50px;
+                background-color: yellow;
+                border-radius: 100%;
+                animation-name: b3;
+                animation-duration: 8s;
+                animation-iteration-count: infinite;
+                left: 1.2%;top: 33%;
+            }
+            @keyframes b1 {
+                0%{left: 1.2%;top: 33%;}
+                20%{left: 30.75%;top: 1.6%;}
+                33%{left: 61.5%;top: 33%;}
+                66%{left: 30.75%;top: 1.6%;}
+
+            }
+            @keyframes b2 {
+                0%{left: 1.2%;top: 33%;}
+                20%{left:30.75%;top: 33%;}
+                33%{left: 61.5%;top: 33%;}
+                66%{left:30.75%;top: 33%;}
+            }
+            @keyframes b3 {
+                0%{left: 1.2%;top: 33%;}
+                20%{left:30.75% ;top: 66%;}
+                33%{left: 61.5%;top: 33%;}
+                66%{left:30.75% ;top: 66%;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg">
+            <div class="bl1">
+
+            </div>
+            <div class="bl2">
+
+            </div>
+            <div class="bl3">
+
+            </div>
+
+        </div>
+    </body>
+</html>

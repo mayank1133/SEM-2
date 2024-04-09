@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Background animation
+        </title>
+        <style>
+            .bgclr{
+                height: 300px;
+                width: 300px;
+                background-color: red;
+                animation-name: R2Y;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes R2Y {
+                from{
+                    background-color: red;
+                }
+                to{
+                    background-color: yellow;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bgclr"></div>
+    </body>
+</html>

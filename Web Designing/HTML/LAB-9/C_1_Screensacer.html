@@ -1,0 +1,39 @@
+    <html>
+        <head>
+            <title>
+                SCREENSAVER
+            </title>
+            <style>
+                .bg{
+                    height: 100%;
+                    width: 100%;
+                    background-image:url("S_bg_img.jpg") ;
+                }
+                .img img{
+                    position: absolute;
+                    height: 200px;
+                    width: 200px;
+                    animation-name: ss;
+                    animation-duration: 30s;
+                    animation-timing-function: ;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes ss {
+                    0%{left: 0%;top: 0%;}
+                    10%{left: 30%;top:  80%;}
+                    20%{left: 60%;top: 0%;}
+                    30%{left: 0%;top: 50%;}
+                    40%{left: 80%;top: 0%;}
+                    50%{left: 10%;top: 70%;}
+
+                }
+            </style>
+        </head>
+        <body>
+            <div class="bg">
+            <div class="img">
+                <img src="Singer.png">
+            </div>
+        </div>
+        </body>
+    </html>

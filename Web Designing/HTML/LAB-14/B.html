@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>
+            LAB-14(B)
+        </title>
+        <style>
+            *{  box-sizing: border-box;}
+            
+            .bckground{
+                height: 100vh;
+                width: 100%;
+                z-index: -10;
+                background-image: url('bkimg1.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+               padding: 10%;
+            }
+            .main{
+                height: 100%;
+                width: 100%;
+                background-color: white;
+            }
+            .itemimg{
+                height: 100%;
+                width: 50%;
+                float: left;
+                background-color: antiquewhite;
+            }
+            .menubar{
+                height: 5%;
+                width: 100%;
+                padding-left: 5%;
+                padding-top: 1%;
+                /* background-color: black; */
+            }
+            select{
+                border-color: antiquewhite;
+                background-color: antiquewhite;
+            }
+            .search{
+                height: 5%;
+                width: 100%;
+                margin-top: 5%;
+                /* background-color: black; */
+                padding-left: 7%;
+                padding-top: 1%;
+            }
+            .items{
+                height: 75%;
+                width: 100%;
+                padding-left: 10%;
+            }
+            .iteminfo{
+                height: 100%;
+                width: 50%;
+                float: right;
+            }
+            .back{
+                height: 5%;
+                width: 100%;
+                padding-left: 5%;
+                padding-top: 1%;
+                /* background-color: black; */
+            }
+            .imfo{
+                height: 60%;
+                width: 100%;
+            }
+            .f1{
+                display: flexbox;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bckground">
+            <div class="main">
+                <div class="itemimg">
+                    <div class="menubar">
+                        <select >
+                            <option value="disabled">M</option>
+                            <option value="Main">Main</option>
+                            <option value="Cart">Cart</option>
+                            <option value="Wallet">Wallet</option>
+                            <option value="Previous Buys">Previous Buys</option>
+                        </select>
+                    </div>
+                    <div class="search">
+                        S
+                    </div>
+                    <div class="items">
+                        <img src="items.jpg" style="height: 100%;width: 95%;">
+                    </div>
+                </div>
+                <div class="iteminfo">
+                    <div class="back">
+                        <- Go to Backmenu
+                    </div>
+                    <div class="imfo">
+                        <p>bedroom</p>
+                        <b>Collage Essantials</b><br>
+                        select quality<br>
+                        <div class="f1">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
